@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<videos>
+
+<metadados>
+ <nome>saude</nome>
+ <titulo>Olá, Ciência</titulo>
+ <descricao>O QUE NUNCA TE CONTARAM SOBRE GORDURA TRANS</descricao>
+ <resoluc>1080p</resoluc>
+ <audio>vp8</audio>
+ <streng>70%</streng>
+ <qualid>saúde</qualid>
+ <linque>https://www.youtube.com/embed/JWhqE4RO8B4</linque>
+</metadados>
+
+<metadados>
+ <nome>não comer carne</nome>
+ <titulo>Olá, Ciência!</titulo>
+ <descricao>Os ERROS dos VEGANOS que TODOS PRECISAM SABER</descricao>
+ <resoluc>1080p</resoluc>
+ <audio>vp8</audio>
+ <streng>40%</streng>
+ <qualid>saúde</qualid>
+ <linque>https://www.youtube.com/embed/j2rzPFmf8pc</linque>
+</metadados>
+
+<metadados>
+ <nome>teste desemp</nome>
+ <titulo>Jg tech</titulo>
+ <descricao>Galaxy M54 esquentou e TRAVOU no Teste de Desempenho</descricao>
+ <resoluc>1080</resoluc>
+ <audio>vp8</audio>
+ <streng>80%</streng>
+ <qualid>celular</qualid>
+ <linque>https://www.youtube.com/embed/yxBO88gmJK8</linque>
+</metadados>
+
+
+</videos>

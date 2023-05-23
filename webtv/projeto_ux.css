@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap');
+
+section.formulario {
+    display: none;
+}
+
+section.video {
+  display: flex;
+    font-size: 120%;
+}
+
+section.player {
+    display: flex;
+}
+
+section.video {
+    width: 95%;
+    margin: 0 auto;
+}
+
+div#ch {
+    width: 5%;
+}
+
+div#info {
+    width: 80%;
+}
+
+div#metadados {
+    color: rgb(217, 217, 217);
+    font-size: 120%;
+    font-family: "Amatic SC", cursive;
+    font-weight: bold;
+    background-color: rgb(120, 120, 120);
+    width: 30%;
+    line-height: 1.2;
+    text-align: center;
+}
+
+div#info h4,
+h2 {
+    color: white;
+    font-size: 200%;
+    font-family: "Amatic SC", cursive;
+    font-weight: bold;
+    background-color: black;
+}
+
+div#info p {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgb(65, 255, 250);
+    color: rgb(24, 24, 24);
+}
+
+div#info p h4 {
+    line-height: 1.2;
+}
+
+section.video h2,
+h4 {
+    color: white;
+    font-size: 500%;
+    font-weight: bold;
+    font-family: "Amatic SC", cursive;
+    background-color: black;
+}
+
+section.video div {
+    margin: 10px;
+}
+
+label {
+   background-color:rgb(65,255,250);
+   color:rgb(24,24,24);
+   font-family: monospace;
+   font-size:150%;
+}
+legend{
+   color:white;
+   background-color:black;
+   font-size:300%;
+   font-weight:bold;
+   font-family:"Amatic SC", cursive; 
+}
+input[type="submit"]{
+   color:white ;
+   font-size:200%;
+   font-family:"Amatic SC", cursive; 
+   font-weight:bold; 
+   background-color:black; 
+   cursor:pointer; 
+}
+input[type="submit"]:hover{
+   color:black; 
+   background-color:rgb(65,255,250); 
+}
