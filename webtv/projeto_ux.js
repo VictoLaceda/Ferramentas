@@ -17,9 +17,24 @@ function Ajax(get, url, funcao) {
 }
 
 
+
+function youtube() {
+  if (xhr.readyState === XMLHttpRequest.DONE) {
+    xhr.responseType = 'json';
+    var data = xhr.response;
+    var title = data.items[0].snippet.title;
+    var channelTitle = data.items[0].snippet.channelTitle;
+    console.log('Title:', title);
+    console.log('Channel:', channelTitle);
+  }
+}
+
 Ajax("GET", "projetoux.xml", ler);
+Ajax("GET", "https://www.googleapis.com/youtube/v3/videos?part=snippet&id=",youtube)
 
 /*━━━━━━━━━━━━━━━━❰✭ ✭❱━━━━━━━━━━━━━━━━*/
+
+
 
 
 function botoes(indice, nome, doc) {
@@ -30,7 +45,7 @@ function botoes(indice, nome, doc) {
     font-size:150%;
     font-family:"Amatic SC", cursive; 
     font-weight:bold; 
-    background-color:black; 
+    background-color:rgb(70, 28, 18); 
     cursor:pointer;
 `;
 
@@ -40,12 +55,12 @@ function botoes(indice, nome, doc) {
   });
 
   btn.addEventListener('mouseout', function () {
-    this.style.backgroundColor = 'black';
+    this.style.backgroundColor = 'rgb(70, 28, 18)';
     this.style.color = 'white';
   });
 
   btn.addEventListener('mouseout', function () {
-    this.style.backgroundColor = 'black';
+    this.style.backgroundColor = 'rgb(70, 28, 18)';
     this.style.color = 'white';
   });
 

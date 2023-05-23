@@ -27,11 +27,11 @@ div#info {
 }
 
 div#metadados {
-    color: rgb(217, 217, 217);
+    color: rgb(65, 255, 250);
     font-size: 120%;
     font-family: "Amatic SC", cursive;
     font-weight: bold;
-    background-color: rgb(120, 120, 120);
+    background-color: rgb(188, 4, 117);
     width: 30%;
     line-height: 1.2;
     text-align: center;
@@ -43,7 +43,7 @@ h2 {
     font-size: 200%;
     font-family: "Amatic SC", cursive;
     font-weight: bold;
-    background-color: black;
+    background-color: rgb(242, 116, 116);
 }
 
 div#info p {
@@ -62,8 +62,8 @@ h4 {
     font-size: 500%;
     font-weight: bold;
     font-family: "Amatic SC", cursive;
-    background-color: black;
-}
+    background-color: gold;
+}   
 
 section.video div {
     margin: 10px;
