@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="temas chr">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/temas chr/temas chr/zelda.zip!/" />
+      <root url="jar://$PROJECT_DIR$/temas chr/temas chr/8bit.zip!/" />
+      <root url="jar://$PROJECT_DIR$/temas chr/temas chr/purplesk.zip!/" />
+      <root url="jar://$PROJECT_DIR$/temas chr/temas chr/anim coloridao.zip!/" />
+      <root url="jar://$PROJECT_DIR$/temas chr/temas chr/deucerto.zip!/" />
+      <root url="jar://$PROJECT_DIR$/temas chr/temas chr/clash.zip!/" />
+      <root url="jar://$PROJECT_DIR$/temas chr/temas chr/bliblioteca.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

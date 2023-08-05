@@ -1,0 +1,21 @@
+#!/bin/bash
+
+result=$(zenity --forms \
+    --title="AnScrcpy" \
+    --text="Pegar os dados de conexao com o dispositivo." \
+    --separator="," \
+    --add-entry="Endereco IP" \
+    --add-entry="Porta" \
+    --add-entry="Resolução" \
+    --add-entry="Bitrate" \
+    --add-entry="Opcoes adcionais" 
+)
+
+endip=$(echo "$result" | cut -d',' -f1)
+porta=$(echo "$result" | cut -d',' -f2)
+resol=$(echo "$result" | cut -d',' -f3)
+bitrat=$(echo "$result" | cut -d',' -f4)
+options=$(echo "$result" | cut -d',' -f5)
+
+adb connect $endip:$porta
+scrcpy -m $resol -b $bitrat $options
