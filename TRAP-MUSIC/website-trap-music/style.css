@@ -1,0 +1,100 @@
+div#background {
+    background-image: linear-gradient(to bottom right, whitesmoke, aquamarine);
+    width: 100%;
+    height: 200px;
+    margin: -8px;
+    padding: 10px;
+}
+div#titulos a h1 {
+    text-align: center;
+    text-transform: capitalize;
+    position: absolute;
+    top: 8%;
+    left: 43%;
+    text-decoration: none;
+    color: black;
+}
+div#titulos a h2 {
+    text-align: center;
+    text-transform: capitalize;
+    position: absolute;
+    top: 16%;
+    left: 34%;
+    text-decoration: none;
+    color: black;
+}
+nav#navegacao-principal  ul {
+    list-style-type: none;
+    margin: -8px;
+    padding: 0px;
+    overflow: hidden;
+    background-color: gray;
+}
+nav#navegacao-principal  li div {
+    float: left;
+}
+nav#navegacao-principal  li {
+    display: inline;
+    float: left;
+    border-right: 1px solid lightgray;
+}
+nav#navegacao-principal  a {
+    display: block;
+    margin: 0px;
+    padding: 16px;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+}
+nav#navegacao-principal  a:hover{
+    background-color: black;
+}
+body section {
+    margin-left: 50px;
+}
+body header.titulos-noticias {
+    text-decoration: underline;
+}
+body section article p {
+    text-indent: 25px;
+    width: 550px;
+}
+aside {
+    position: absolute;
+    top: 52%;
+    left: 78%;
+    text-indent: 5px;
+    width: 225px;
+    padding: 5px;
+    text-decoration: underline;
+}
+aside#outros {
+    border: 5px solid gray;
+    padding: 10px;
+    text-align: center;
+}
+article#outros_1 {
+    border: 3px solid lightgray;
+}
+article#outros_2 {
+    border: 3px solid lightgray;
+}
+footer nav#navegacao-rodape ul {
+    background-color: gray;
+    margin: -8px;
+    height: 150px;
+    list-style-type: none;
+    text-align: center;
+    line-height: 1.5;
+}
+footer nav#navegacao-rodape a {
+    text-decoration: none;
+    text-align: center;
+    color: white;
+}
+footer div {
+    background-color: lightgray;
+    margin: -8px;
+    text-align: center;
+    color: white;
+}
