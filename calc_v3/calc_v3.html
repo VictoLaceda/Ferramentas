@@ -1,0 +1,65 @@
+<html>
+
+
+<head>
+    <meta charset='UTF-8'>
+    <title>calcv3</title>
+    <link rel='stylesheet' href='calc_v3.css'>
+</head>
+
+
+<body>
+    <div>
+        <h2 style="text-align:center; color: pink;">CAL COOL LADORA</h2>
+        <p style="text-align:center; color: palevioletred;">
+            Aperte enter ou no sinal de igual para realizar a soma</br>
+            Aperte D ou limpar para dar um clean no visor
+        </p>
+        <!--______table onde tem o input/output______-->
+        <table id="calc" style="width: 323px; height: 40px;">
+            <tr>
+                <td>
+                    <input type="text" id="display" placeholder="">
+                </td>
+            </tr>
+        </table>
+        <!--____________________________________-->
+        <table id="calc">
+            <tr>
+                <td><button class="butao">7</button></td>
+                <td><button class="butao">8</button></td>
+                <td><button class="butao">9</button></td>
+                <td><button class="butao">+</button></td>
+                <td><button class="butao">-</button></td>
+            </tr>
+            <tr>
+                <td><button class="butao">4</button></td>
+                <td><button class="butao">5</button></td>
+                <td><button class="butao">6</button></td>
+                <td><button class="butao">*</button></td>
+                <td><button class="butao">/</button></td>
+            </tr>
+            <tr>
+                <td><button class="butao">1</button></td>
+                <td><button class="butao">2</button></td>
+                <td><button class="butao">3</button></td>
+                <td colspan="2">
+                    <button id="ig" class="butao">=</button>
+                </td>
+            </tr>
+            <tr>
+                <td><button class="butao">0</button></td>
+                <td><button class="butao">.</button></td>
+                <td><button class="butao"></button></td>
+                <td colspan="2">
+                    <button id="C" class="butao">Limpar</button>
+                </td>
+
+            </tr>
+        </table>
+    </div>
+</body>
+
+<script src="calc_v3.js"></script>
+
+</html>

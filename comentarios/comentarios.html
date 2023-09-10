@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>Treinamento</title>
+	<link rel="stylesheet" href="estilo.css">
+</head>
+
+<body>
+	<div>
+		<h2>O que voce achou desta foto??</h2>
+		<p>Aperte enter para enviar o comentario ou Del para limpar tudo</p>
+		<img src="img/claudiocastro.png" width="300px" height="300px">
+	</div>
+	<div class="input_coment">
+		<h2 style="color: white; margin:5px;">Area de Comentarios</h2>
+		<input type="text" class="bl" placeholder="Seu nome aqui"><br/>
+		<input type="text" class="bl" placeholder="titulo do comentario"><br/>
+		<p class="ipdiv">
+			<b>=== DICAS PARA FORMATAR SEU TEXTO ===</b>
+			<br/>1. Use *asteristicos* entre o texto para poder deixar o seu texto em negrito
+			<br/>2. Use _sublinhado_ para deixar em italico
+			<br/>3. Use < tags > para deixar monoespaçado
+			<br/>4. Use +cor(parenteses)cor+ para poder mudar a cor
+			<br/>recomendo usar notação html, desse jeito aqui:
+			<br/><b>+#cc66ff(O texto muda de cor, por exemplo)#cc66ff+</b>
+		</p>
+		<textarea type="text" class="bl" placeholder="Digite seu comentario" rows="12" cols="40"></textarea><br/>
+		<button id="envie" >Envie!</button>
+		<button id="limpar" >Limpar Tudo</button>
+	</div>
+	<!-- DIV DE COMENTARIOS -->
+	<div class="coment">
+		<table>
+			<tr>
+				<td><div class="name">Thais Rodrigues de Castro</div></td>
+				<td><div class="hour">Horas</div></td>
+				<td><button class="bw like">Like</button></td>
+				<td><button class="bw comment">Comentar</button></td>
+				<td><button class="bw report">Reportar</button></td>
+				<td><button class="bw delete">Deletar</button></td>
+			</tr>
+		</table>
+		<p class="titulo">Ah sim!</p>
+		<p class="comentario"> agora eu entendi kk. Aqui sera onde aparecerão os comentarios dos internautas</p>
+	</div>
+	<!-- DIV DE COMENTARIOS -->
+	<div class="coment">
+		<table>
+			<tr>
+				<td><div class="name">Cachorro Frio</div></td>
+				<td><div class="hour">Horas</div></td>
+				<td><button class="bw like">Like</button></td>
+				<td><button class="bw comment">Comentar</button></td>
+				<td><button class="bw report">Reportar</button></td>
+				<td><button class="bw delete">Deletar</button></td>
+			</tr>
+		</table>
+		<p class="titulo">AKAKAKAKAAKKKAAK</p>
+		<p class="comentario">akakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakak ccm é um icone</p>
+	</div>
+	<!-- DIV DE COMENTARIOS -->
+</body>
+
+<script src="funcione.js"></script>
+
+</html>
+
+
+

@@ -1,0 +1,120 @@
+* {
+    font-family: Noto Sans;
+}
+
+.input_coment {
+    padding: 10px;
+    width: 80%;
+    background-image: linear-gradient(to left, #B40431, #8A0868);
+    height: auto;
+    position: relative;
+}
+
+.coment {
+    padding: 10px;
+    width: 80%;
+    height: auto;
+    background-color: black;
+    position: relative;
+    border: 1px solid white;
+}
+
+.name {
+    background-image: linear-gradient(to left, #00ff99, #ff00ff);
+    padding: 5px;
+    margin: 5px;
+    border-radius: 10px;
+}
+
+.hour {
+    background-color: #006600;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 10px;
+    color: white;
+}
+
+.titulo {
+    font-family: monospace;
+    color: white;
+    font-size: 20px;
+}
+
+.comentario {
+    color: white;
+    font-size: 12px;
+}
+
+.bl {
+    background-color: black;
+    border-radius: 8px;
+    border: none;
+    color: white;
+    padding: 5px;
+    margin: 5px;
+    font-size: 12px;
+}
+
+.bw {
+    background-color: transparent;
+    border-radius: 8px;
+    border: 1px solid white;
+    color: white;
+    padding: 5px;
+    margin: 5px;
+    font-size: 12px;
+}
+
+.like:hover {
+    background-color: blue;
+    color: white;
+}
+
+.comment:hover {
+    background-color: #cc66ff;
+    color: white;
+}
+
+.report:hover {
+    background-color: red;
+    color: black;
+}
+
+.delete:hover {
+    background-color: red;
+    color: white;
+}
+
+#envie {
+    background-color: black;
+    border-radius: 8px;
+    border: none;
+    color: white;
+    padding: 5px;
+    margin: 5px;
+}
+
+#envie:hover {
+    background-image: linear-gradient(to left, orange, hotpink);
+    color: black;
+}
+
+#limpar {
+    background-color: black;
+    border-radius: 8px;
+    border: none;
+    color: #ff8080;
+    padding: 5px;
+    margin: 5px;
+}
+
+#limpar:hover {
+    background-color: red;
+    color: white;
+}
+
+.ipdiv{
+    color: white; 
+    margin:5px;
+    font-size:12px;
+}
