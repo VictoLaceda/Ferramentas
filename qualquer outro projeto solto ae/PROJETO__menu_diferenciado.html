@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang='pt-br'>
+
+<head>
+    <meta charset='UTF-8'>
+    <link rel='stylesheet' href='.css'>
+    <title></title>
+    <style>
+        body {
+            padding: 0px;
+            margin: 0px;
+        }
+
+        #principal {
+            width: 100%;
+            height: 100%;
+            border: 1px ridge brown;
+            /*pra destacar as coisas*/
+        }
+
+        #lateral {
+            height: 100%;
+            width: 20%;
+            /*pra destacar as coisas*/
+            background-color: black;
+            color: white;
+            position: absolute;
+        }
+
+        #menu {
+            height: 100%;
+            width: 80%;
+            background-image: linear-gradient(to left, rgb(0, 0, 0), gray);
+            /*pra destacar as coisas*/
+            left: 20%;
+            top: 0px;
+            position: absolute;
+        }
+
+        #descrissao {
+            margin: 0 auto;
+            border: 1px solid white;
+            margin-top: 20%;
+            text-align: center;
+            width: 40%;
+            height: auto;
+            color: white;
+        }
+
+        #menu1,
+        #menu2,
+        #menu3,
+        #menu4,
+        #menu5,
+        #menu6 {
+            margin: 0 auto;
+            border: 1px solid white;
+            /*isso vai ser removido*/
+            padding: 5%;
+        }
+    </style>
+</head>
+
+<body>
+    <!--==================================================-->
+
+    <div id="lateral">
+        <div id="menu1">Home</div>
+        <div id="menu2">Cursos</div>
+        <div id="menu3">Eventos</div>
+        <div id="menu4">Locais</div>
+        <div id="menu5">Mapa</div>
+        <div id="menu6">Fale conosco</div>
+    </div>
+    <div id="menu">
+        <div id="descrissao">
+            <h2>SEU NOME</h2>
+            <p>
+                Um site intuitivo, simples, topzera que te ajuda nas coisa
+            </p>
+        </div>
+    </div>
+
+    <!--==================================================-->
+</body>
+
+<script>
+    document.getElementById('menu1').onclick = function () {
+        document.getElementById('menu1').style.backgroundImage = "linear-gradient( to left, red, orange)";
+    }
+    document.getElementById('menu1').onmouseout = function () {
+        document.getElementById('menu1').style.backgroundColor = "red";
+    }
+</script>
+
+</html>

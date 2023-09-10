@@ -1,0 +1,104 @@
+body {
+    background-image: linear-gradient(to right, #3d3613, #642364, #256e6e);
+}
+
+.centro {
+    font-family: 'Acme', sans-serif;
+    margin-top: 15%;
+    text-align: center;
+    font-size: 230%;
+    color: white;
+}
+#campo{
+    background-color:whitesmoke;
+    width:210px;
+    margin:0 auto;
+    text-align: center;
+}
+.centro2 {
+    margin-top: 15%;
+    font-family: 'Catamaran', sans-serif;
+    border: 2px solid white;
+    color: white;
+    text-align: center;
+    width: 400px;
+    height: auto;
+    padding: 5%;
+    margin: 0 auto;
+}
+
+table {
+    margin: 0 auto;
+}
+
+.botao {
+    background-color: transparent;
+    color: white;
+    width: 50px;
+    height: 30px;
+}
+
+.botao:hover {
+    transition: 0.2s;
+    background-color: white;
+    color: black;
+}
+
+#op {
+    background-color: rgba(255, 255, 255, 0.191);
+    color: black;
+    width: 50px;
+    height: 30px;
+}
+
+#op:hover {
+    transition: 0.2s;
+    background-color: black;
+    color: white;
+}
+
+#entrada {
+    position:relative;
+    right:10px;
+    border:none;
+    margin: 10px;
+    width: 210px;
+    margin-bottom:0px;
+    display:block;
+    position: relative;
+    font-family: monospace;
+    background-color: black;
+    opacity:0.5;
+    color: white;
+    width: 210px;
+    height: 30px;
+}
+#saida {
+    border:none;
+    text-align:center;
+    margin-top: 0px;
+    width: 210px;
+    position: relative;
+    font-family: monospace;
+    background-color: black;
+    opacity:0.5;
+    color: white;
+    width: 210px;
+    height: 30px;
+}
+
+#C {
+    background-color: rgba(255, 6, 93, 0.500);
+}
+
+#C:hover {
+    background-color: rgb(255, 6, 93)
+}
+
+#ig {
+    background-color: rgba(172, 255, 47, 0.500);
+}
+
+#ig:hover {
+    background-color: rgb(172, 255, 47);
+}

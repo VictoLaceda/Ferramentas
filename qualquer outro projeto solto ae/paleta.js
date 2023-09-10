@@ -1,0 +1,9 @@
+function mudar_id1(){ document.querySelector('div').style.background = 'blue';   }
+function mudar_id2(){ document.querySelector('div').style.background = 'pink';   }
+function mudar_id3(){ document.querySelector('div').style.background = 'aqua';   }
+function mudar_id4(){ document.querySelector('div').style.background = 'snow';   }
+function mudar_id5(){ document.querySelector('div').style.background = 'brown';  }
+function mudar_id6(){ document.querySelector('div').style.background = 'green';  }
+function mudar_id7(){ document.querySelector('div').style.background = 'red';    }
+function mudar_id8(){ document.querySelector('div').style.background = 'purple'; }
+function mudar_id9(){ document.querySelector('div').style.background = 'darkcyan'; }

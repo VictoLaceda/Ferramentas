@@ -1,0 +1,25 @@
+
+*{
+	font-family: serif;
+}
+ul{
+	background: green;
+	width: auto; height: auto;
+}
+ul li{
+	display: inline-block;
+	margin-right: 20px;
+	text-decoration: none;
+}
+ul li b i a
+{
+	text-decoration: none;
+	color: white;
+}
+
+#b{
+	color: white;
+	float: right; width:auto;
+	position: relative;
+	text-decoration: none;
+}
