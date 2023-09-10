@@ -1,0 +1,46 @@
+/*
+    VAMOS USAR FONTES PERSONALIZADAS SEM
+    USO DA INTERNET
+*/
+@font-face{
+    src: url('Acme/Acme-Regular.ttf');
+    font-family: 'Acme';
+    format: ('truetype');
+}
+
+
+@font-face{
+    src: url('Catamaran/Catamaran-Regular.ttf');
+    font-family: 'Catamaran';
+    format: ('truetype');
+}
+
+body {
+    background-image: linear-gradient( to right, #fee14b, #f450f4, #4eeeef  );
+}
+
+
+.centro {
+    font-family: 'Acme', sans-serif;
+    margin-top:15%;
+    text-align: center;
+    font-size: 230%;
+    color:white;
+}
+
+
+.centro2 {
+    font-family: 'Catamaran', sans-serif;
+    border:2px solid white;
+    color:white;
+    width: 400px; height: auto;
+    padding: 5%;
+    margin: 0 auto;
+}
+
+.stilo{
+    color: white;
+    padding: 5px;
+    background-color: transparent;
+    border: 2px solid white;
+}

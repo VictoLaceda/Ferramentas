@@ -1,0 +1,43 @@
+@font-face{
+    src: url('Acme/Acme-Regular.ttf');
+    font-family: 'Acme';
+}
+
+
+@font-face{
+    src: url('Catamaran/Catamaran-Regular.ttf');
+    font-family: 'Catamaran';
+}
+
+
+
+body {
+    background-image: linear-gradient( to right, #01596F, #99C1DA );
+}
+
+
+.centro {
+    font-family: 'Acme', sans-serif;
+    margin-top:15%;
+    text-align: center;
+    font-size: 230%;
+    color:white;
+}
+
+
+.centro2 {
+    margin-top: 15%;
+    font-family: 'Catamaran', sans-serif;
+    border:2px solid white;
+    color:white;
+    text-align: center;
+    width: 400px; height: auto;
+    padding: 5%;
+    margin: 0 auto;
+}
+
+
+#gold {
+    color: rgb(170, 0, 37);
+}
+
